@@ -15,3 +15,27 @@ def greater7(num):
 
 greater7_numbers = list(filter(greater7, numbers))
 print(greater7_numbers)
+
+
+def add2(num):
+    return num + 2
+
+
+adding2 = list(map(add2, numbers))
+print(adding2)
+
+
+def cube(num):
+    return num ** 3
+
+
+cube_numbers = list(map(cube, numbers))
+print(cube_numbers)
+
+
+def isodd(num):
+    return num % 2 != 0
+
+
+odd_numbers = list(filter(isodd, numbers))
+print(odd_numbers)
